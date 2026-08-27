@@ -186,30 +186,60 @@ function Home() {
 
                 
                 {/* who are we */}
-            <section>
+            <section className="py-4 px-6 bg-gray-50">
 
-                <video src=""
+                    <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+
+                        <div className="relative flex justify-center">
+                            <div className="w-full max-w-xl rounded-2xl overflow-hidden shadow-xl">
+                                <video 
+                                    src={DreamZone}
+                                    autoPlay
+                                    muted
+                                    loop
+                                    playsInline
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                        </div>
+
+                        <div>
+                            <p className="text-blue-600 font-semibold uppercase tracking-widest mb-3">
+                                    Who Are We
+                            </p>
+
+                            <h2 className="text-4xl md:text-5xl font-bold text-green-900 leading-tight">
+                                    Turning Your Property Dreams Into Reality
+                            </h2>
+
+                            <p className="mt-6 text-gray-600 text-lg leading-relaxed">
+                                DreamZone has been turning property aspirations into reality
+                        across Sri Lanka since 2020. With six years of dedicated real
+                        estate expertise, we specialize in matching clients with
+                        premium residential, commercial, and investment properties.
+                            </p>
+
+                            <p className="mt-5 text-gray-600 text-lg leading-relaxed">
+                                Our deep market knowledge, commitment to transparency, and
+                                client-first approach ensure a seamless and rewarding real
+                                estate experience from browsing to closing.
+                            </p>
+
+                            <button className="mt-8 bg-blue-600 text-white px-7 py-3.5 rounded-lg font-semibold hover:bg-blue-700 transition cursor-pointer">
+                                Discover More
+                            </button>
+
+                        </div>
+                    </div>
                 
-                />
-                <h2>Who are we</h2>
-                <p>DreamZone has been turning property aspirations into reality across Sri Lanka since 2020. 
-                    With six years of dedicated real estate expertise, we specialize in matching clients with 
-                    premium residential, commercial, and investment properties. Our deep market knowledge, 
-                    commitment to transparency, and client-first approach ensure a seamless and rewarding real 
-                    estate experience from browsing to closing. Discover your next chapter with a team you can trust.</p>
             </section>
-
-
-            <section>
 
                 <Feed />
 
-                
-            </section>
 
-            <section>
+     
                 <Footer />
-            </section>
+
 
         </>
     );
