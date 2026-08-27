@@ -9,8 +9,8 @@ function Footer() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                 
                 <div>
-                    <h2 className="text-2xl font-bold">
-                        Dream<span className="text-blue-500">Zone</span>
+                    <h2 className="text-2xl font-bold text-mauve-300">
+                        Dream<span className="text-[rgb(191,107,64)]">Zone</span>
                     </h2>
 
                     <p className="text-gray-400 mt-5 leading-relaxed">
