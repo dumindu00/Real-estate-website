@@ -16,6 +16,7 @@ import prop7 from "../assets/images/prop7.jpg";
 import prop8 from "../assets/images/prop8.jfif";
 import Feed from "../components/Feed";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 
 
@@ -74,6 +75,8 @@ function Home() {
 
     return (
         <>
+
+            <Navbar />
 
             {/* HERO SECTION */}
             <section className="relative h-screen flex items-center justify-center overflow-hidden">
