@@ -1,12 +1,14 @@
 import { FiArrowUpRight } from "react-icons/fi";
-
+import feed1 from "../assets/feed/feed1.jpg";
+import feed2 from "../assets/feed/feed2.jfif";
+import feed3 from "../assets/feed/feed3.jfif";
 
 function Feed() {
   
   const news = [
         {
             id: 1,
-            image: "/images/news1.jpg",
+            image: feed1,
             category: "Real Estate",
             date: "August 25, 2026",
             title: "Sri Lanka Property Market Shows Strong Growth",
@@ -15,7 +17,7 @@ function Feed() {
         },
         {
             id: 2,
-            image: "/images/news2.jpg",
+            image: feed2,
             category: "Investment",
             date: "August 20, 2026",
             title: "Why Property Investment Remains a Strong Opportunity",
@@ -24,7 +26,7 @@ function Feed() {
         },
         {
             id: 3,
-            image: "/images/news3.jpg",
+            image: feed3,
             category: "Market Trends",
             date: "August 15, 2026",
             title: "New Trends Shaping Modern Homes",

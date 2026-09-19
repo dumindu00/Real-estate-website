@@ -13,7 +13,8 @@ import prop4 from "../assets/images/prop4.jfif";
 import prop5 from "../assets/images/prop5.jfif";
 import prop6 from "../assets/images/prop6.jfif";
 import prop7 from "../assets/images/prop7.jpg";
-import prop8 from "../assets/images/prop8.jfif";
+import prop8 from "../assets/images/prop8.jpg";
+
 import Feed from "../components/Feed";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";

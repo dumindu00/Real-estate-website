@@ -34,19 +34,14 @@ function Navbar() {
                   Apartments
                 </Link>
                 <Link
-                    to="/lands"
+                    to="/propertieslands"
                     className='text-white hover:text-blue-400 transition'
                 >
-                  Properties
+                  Properties & Lands
                 </Link>
+
                 <Link
-                    to="/portfolio"
-                    className='text-white hover:text-blue-400 transition'
-                >
-                  Portfolio
-                </Link>
-                <Link
-                    to="/why"
+                    to="/whyus"
                     className='text-white hover:text-blue-400 transition'
                 >
                   Why Us

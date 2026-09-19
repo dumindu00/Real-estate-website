@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar"
 
 import ap1 from "../assets/apartments/ap1.jpg";
 import ap2 from "../assets/apartments/ap2.jpg";
-import ap3 from "../assets/apartments/ap3.jpg";
 import ap4 from "../assets/apartments/ap4.jpg";
 import ap5 from "../assets/apartments/ap5.jpeg";
 import ap6 from "../assets/apartments/ap6.jpg";
@@ -12,6 +11,8 @@ import ap8 from "../assets/apartments/ap8.jfif";
 import ap9 from "../assets/apartments/ap9.jpg";
 import ap10 from "../assets/apartments/ap10.jpg";
 import ap11 from "../assets/apartments/ap11.jpg";
+import ap12 from "../assets/apartments/ap12.jpg";
+import ap13 from "../assets/apartments/ap13.jfif";
 
 
 
@@ -61,7 +62,7 @@ function Apartments() {
             <div className="h-[500px] rounded-2xl overflow-hidden shadow-xl">
 
               <img 
-                  src="" 
+                  src={ap1} 
                   alt="apartment interior"
                   className="w-full h-full object-cover"
                   />
@@ -93,7 +94,7 @@ function Apartments() {
 
                 <div className="h-80 overflow-hidden rounded-2xl">
                   <img 
-                      src="" 
+                      src={ap2} 
                       alt="interior"
                       className="w-full h-full object-cover hover:scale-105 transition duration-500"
                       />
@@ -101,7 +102,7 @@ function Apartments() {
 
                 <div className="h-80 overflow-hidden rounded-2xl">
                             <img
-                                src=""
+                                src={ap13}
                                 alt="Modern apartment"
                                 className="w-full h-full object-cover hover:scale-105 transition duration-500"
                             />
@@ -109,7 +110,7 @@ function Apartments() {
 
                   <div className="h-80 overflow-hidden rounded-2xl">
                             <img
-                                src=""
+                                src={ap4}
                                 alt="Luxury apartment interior"
                                 className="w-full h-full object-cover hover:scale-105 transition duration-500"
                             />
@@ -117,7 +118,7 @@ function Apartments() {
 
                         <div className="h-80 overflow-hidden rounded-2xl">
                             <img
-                                src=""
+                                src={ap12}
                                 alt="Modern living space"
                                 className="w-full h-full object-cover hover:scale-105 transition duration-500"
                             />

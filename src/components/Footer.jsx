@@ -68,7 +68,7 @@ function Footer() {
 
                             <li>
                                 <a
-                                    href="/properties"
+                                    href="/propertieslands"
                                     className="hover:text-white transition"
                                 >
                                     Properties
